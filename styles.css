@@ -2,3 +2,35 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+html, body {
+    margin: 0;
+}
+
+.full-screen-container {
+    background-image: url("boat-bg-image.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background-color: hsla(233, 100%, 88%, 0.6);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.login-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
